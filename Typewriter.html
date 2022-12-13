@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>TypeWriter effect</title>
+    <style>
+        body {
+            background: navajowhite;
+            background-size: cover; 
+            font-family: 'Trebuchet MS', sans-serif;
+        }
+        .typed-out {
+            overflow: hidden; 
+            border-right: .15em solid orange; 
+            font-size: 1.6em; 
+            width: 0;
+            animation: typing 2.5s steps(20, end) forwards, 
+                        blink 0.9s infinite; 
+        }
+
+        .typed-fart {
+            overflow: hidden; 
+            border-right: .15em solid orange; 
+            font-size: 1.6em; 
+            width: 0;
+            animation: typing 2s steps(3, end) infinite, 
+                        blink 0.9s infinite; 
+        }
+
+        .container {
+            display: inline-block;
+        }
+
+        @keyframes typing {
+            from { width:0 }
+            to { width: 100% }
+        }
+
+        @keyframes blink {
+            from { border-color: transparent}
+            to { border-color: orange; }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+    <h1>Hi, I'm butt, butt lord face </h1>
+    <div class="container">
+        <div class="typed-out">Web developer
+
+        </div>
+        <div class="typed-fart">Fart developer</div>
+
+    </div>
+
+
+
+</body>
+
+
+
+</html>

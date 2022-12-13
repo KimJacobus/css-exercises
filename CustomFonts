@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head> 
+
+        <style>
+            @font-face {
+                font-family : Wreckout;
+                src : url(Wreckout.otf);
+            }
+
+            p {
+                font-family : Wreckout;
+            }
+
+
+
+        </style>
+
+
+
+
+
+    </head>
+
+    <body>
+
+        <p>assbutt megabutt assbutt assbutt megabutt assbutt
+            assbutt megabutt assbuttassbutt megabutt assbuttassbutt megabutt assbutt
+            assbutt megabutt assbuttassbutt megabutt assbuttassbutt megabutt assbuttassbutt megabutt assbutt
+        </p>
+
+    </body>
+
+
+
+
+
+
+</html>
